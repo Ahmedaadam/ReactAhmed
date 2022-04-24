@@ -55,7 +55,7 @@ useEffect(() => {
             <Route path="/Card" element={<Card pokemons={filteredPokemons}/>}>
                    <Route index element={<SearchBox filterHandler={filterHandler}/>}> </Route>
             </Route>
-            <Route path="/Home" element={<Home/>}/>
+            <Route index element={<Home/>}/>
             <Route path="/Team" element={<Team/>}/>
          </Route>
          

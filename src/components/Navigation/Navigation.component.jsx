@@ -9,7 +9,7 @@ const Navigation = () => {
         <Fragment>
 
         <div className="links-container">
-           <Link to="Home">Home</Link>
+           <Link to="/">Home</Link>
            <Link to="Team">Lag</Link>
            <Link to="Card">Lista</Link>
         </div>

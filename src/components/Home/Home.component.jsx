@@ -4,7 +4,6 @@ const Home = () => {
   return(
        
       <div className="head">
-         <h1 className="home-title">Välkommen till start sidan</h1> 
          <img className='image' src={backgroundImage}/>
 
       </div>
