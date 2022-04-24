@@ -1,0 +1,16 @@
+.links-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    
+}
+.links-container a {
+    text-decoration: none;
+    padding: 0 20px;
+    margin: 0 20px;
+    background-color: rgb(114, 114, 247);
+    color: white;
+    font-size: 19px;
+    border-radius: 20px;
+
+}
